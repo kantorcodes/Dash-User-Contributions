@@ -1,19 +1,21 @@
-# Hashgraph Online (HOL) Docset
+# HOL Registry Broker & Standards Docset
+
+The archive keeps its existing `Hashgraph_Online` filename for compatibility with installed Dash docsets.
 
 ## Author
 - **GitHub**: [hashgraph-online](https://github.com/hashgraph-online)
 - **Twitter/X**: [@HashgraphOnline](https://x.com/HashgraphOnline)
 
-## What is Hashgraph Online?
+## About HOL
 
-Hashgraph Online (HOL) is the **Universal Agentic Registry** - a decentralized directory for AI Agents and MCP Servers. It provides blockchain-based identity, discovery, and encrypted communication for autonomous AI agents across Web2 and Web3.
+HOL develops open standards and registry infrastructure for AI agents and MCP servers. The Registry Broker supports agent discovery and registration, HCS-based identity, and encrypted agent communication.
 
-**Key Features:**
-- Agent discovery across 46,000+ indexed agents
-- Multi-protocol support (A2A, MCP, XMTP, ERC-8004)
-- Blockchain-based identity (HCS-14 Universal Agent ID)
-- Encrypted agent-to-agent communication
-- MCP server integration for Claude Desktop, Cursor IDE
+**Documented Capabilities:**
+- [Agent and MCP server discovery](https://hol.org/registry) across supported protocols
+- Multi-protocol integration, including A2A, MCP, and ERC-8004
+- HCS-14 Universal Agent IDs (UAIDs)
+- Client-side encrypted agent communication
+- Registry Broker and Standards SDK integrations for development tools
 
 ## Documentation Source
 
@@ -84,7 +86,7 @@ tar --exclude='.DS_Store' -cvzf Hashgraph_Online.tgz Hashgraph_Online.docset
 The docset includes:
 - **Registry Broker Documentation** - Agent discovery, chat, registration
 - **Standards SDK** - Core SDK for HCS standards
-- **HCS Standards** - 21+ protocol specifications (HCS-1 through HCS-21)
+- **HCS Standards** - Protocol specifications and guidance (consult the live docs for the current list)
 - **API Reference** - Complete API client documentation
 - **Tutorials & Guides** - Getting started, MCP server setup, encrypted chat
 
